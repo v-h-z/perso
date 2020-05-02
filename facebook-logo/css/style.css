@@ -1,0 +1,50 @@
+/* Fonts */
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700");
+@import url("https://use.fontawesome.com/releases/v5.0.10/css/all.css");
+
+/* Components */
+/* @import url("components/name_of_component.css"); */
+
+
+body {
+  margin: 0;
+  margin-bottom: 100px;
+  font-family: "Open Sans", "Helvetica", "sans-serif";
+}
+.text-center {
+  text-align: center;
+}
+.container {
+/*  max-width: 200px;
+  margin: 200px auto;*/
+  max-width: 50vh;
+  margin: 100px auto;
+}
+
+.blue-box {
+  width: 50vh;
+  height: 50vh;
+/*  width: 200px;
+  height: 200px;*/
+  background-color: #3b5998;
+  border-radius: 10px;
+  box-shadow: 17px 17px 50px rgba(0,0,0,0.3);
+  position: relative;
+  overflow: hidden;
+}
+
+.f {
+  position: absolute;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+/*  font-size: 220px;
+  right: 16px;
+  bottom: -65px;*/
+  font-size: 50vh;
+  right: 5vh;
+  top: 6vh;
+}
+
+.f p {
+  margin: 0;
+}
