@@ -52,3 +52,13 @@ table #minesweeper td {
   height: 24px;
   background-size: cover;
 }
+
+table {
+  margin: 0 auto;
+}
+
+.container {
+  width: 400px;
+  margin: 0 auto;
+  text-align: justify;
+}

@@ -9,28 +9,30 @@
   <link rel="stylesheet" href="minesweeper.css">
 </head>
 <body>
-  <table>
-    <tbody id="minesweeper">
-      <!-- Dear Student, would you write a bunch of HTML here or generate
-           a big array of tiles, or do it via JavaScript? -->
-      <tr>
-        <td class="unopened"></td>
-        <td class="unopened"></td>
-        <td class="unopened"></td>
-      </tr>
-      <tr>
-        <td class="unopened"></td>
-        <td class="unopened"></td>
-        <td class="unopened"></td>
-      </tr>
-      <tr>
-        <td class="unopened"></td>
-        <td class="unopened"></td>
-        <td class="unopened"></td>
-      </tr>
-    </tbody>
-  </table>
-
+  <div class="container">
+    <table>
+      <tbody id="minesweeper">
+        <!-- Dear Student, would you write a bunch of HTML here or generate
+             a big array of tiles, or do it via JavaScript? -->
+        <tr>
+          <td class="unopened"></td>
+          <td class="unopened"></td>
+          <td class="unopened"></td>
+        </tr>
+        <tr>
+          <td class="unopened"></td>
+          <td class="unopened"></td>
+          <td class="unopened"></td>
+        </tr>
+        <tr>
+          <td class="unopened"></td>
+          <td class="unopened"></td>
+          <td class="unopened"></td>
+        </tr>
+      </tbody>
+    </table>
+    <div class="notes"><p>lacks a lot of functionnalities for the moment.. max size is 12x12, no winning message, no flags on right click.. no automatic reveal of mines !adjacent squares. Only a minefield, some mines, and you. War.. War never changes.</p></div>
+  </div>
   <!-- Including your code -->
   <script type="text/javascript" src="main.js"></script>
 </body>
